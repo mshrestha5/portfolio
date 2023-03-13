@@ -61,10 +61,6 @@ textarea {
     grid-template-columns: 1fr;
     grid: 2rem;
   }
-
-  section {
-    margin-top: 6rem;
-  }
 }
 
 /* media queries - small devices */
