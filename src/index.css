@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600&display=swap") * {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,7 +61,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-lights);
+  color: var(--color-light);
 }
 
 section > h2 {
@@ -88,6 +90,7 @@ a:hover {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
+  transition: var(--transition);
 }
 
 .btn:hover {
@@ -116,6 +119,7 @@ img {
 
   section {
     margin-top: 6rem;
+    height: 100vh;
   }
 }
 
